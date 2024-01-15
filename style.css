@@ -1,0 +1,40 @@
+*{
+    margin: o;
+    padding: 0;
+}
+.hadding-nav{
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 50px;
+    border: 2px solid red;
+
+}
+.hadding-ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.hadding-h2{
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    width: 50%;
+
+}
+.hadding-h2 .holidays{
+    color: #FF5400;
+
+}
+.hadding-li{
+    list-style: none;
+    color: rgb(4, 0, 0);
+    font-size: 20px;
+
+}
+.hadding-home{
+    color: #FF5400;
+    font-size: 20px;
+    list-style: none;
+}
