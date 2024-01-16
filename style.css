@@ -84,4 +84,33 @@ nav > h2 {
     padding: 1.10vh;
     color: #fff;
     background-color: #FF5400;
+    border-radius: 20px;
+}
+.our-popular-travel{
+    display: flex;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-between;
+    margin-left: 9em;
+    margin-right: 9em;
+    gap: 5em;
+    height: 21em;
+}
+.our-popular{
+}
+.our-popular-travel .our-popular-img img{
+    height: 21em;
+    word-spacing: 5px;
+}
+.our-popular-travel .our-popular-titel{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.our-popular-read{
+    margin-top: 0.80em;
+    height: 7.5vh;
+    padding: 1.10vh;
+    color: #fff;
+    background-color: #FF5400;
+    border-radius: 20px;
 }
