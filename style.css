@@ -1,40 +1,87 @@
-*{
-    margin: o;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
-.hadding-nav{
-    width: 89%;
+header{
+    padding: 50px 100px;
+}
+nav{
     display: flex;
     justify-content: space-between;
-    margin: 30px;
-    padding: 50px;
-    border: 2px solid red;
-
+    align-items: center;
 }
-.hadding-ul{
+nav > ul{
     display: flex;
-    width: 50%;
-    justify-content: space-between;
 }
-.hadding-h2{
-    display: flex;
-    font-size: 25px;
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1em;
+}
+nav li a{
+    text-decoration: none;
+    color: rgba(3, 0, 0, 0.865);
+}
+nav li .ul-li-a{
+    color: #FF5400;
+}
+nav h2 span{
+    color: #FF5400;
+}
+nav > h2 {
+    font-size: 2rem;
     font-weight: 700;
-    width: 50%;
-
 }
-.hadding-h2 .holidays{
-    color: #FF5400;
-
+.header-from{
+    margin: 40px;
+    background-image: url(./img/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    border-radius: 20px;
+    color: #fff;
 }
-.hadding-li{
-    list-style: none;
-    color: rgb(4, 0, 0);
-    font-size: 20px;
-
+.header-from .header-from-title{
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    top: 28vh;
 }
-.hadding-home{
-    color: #FF5400;
-    font-size: 20px;
-    list-style: none;
+.header-from .header-from-discription{
+    position: relative;
+    top: 31vh;
+}
+.header-from #header-from-where-go{
+    position: relative;
+    top: 34vh;
+    height: 5vh;
+    padding: 0.8vh;
+    color: #fff;
+}
+.header-from #header-from-when{
+    position: relative;
+    top: 34vh;
+    height: 7.5vh;
+    padding: 0.10vh;
+}
+.header-from #header-from-type{
+    position: relative;
+    top: 34vh;
+    height: 7.5vh;
+    padding: 0.10vh;
+}
+.header-from #header-from-button{
+    position: relative;
+    top: 34vh;
+    height: 7.5vh;
+    padding: 1.10vh;
+    color: #fff;
+    background-color: #FF5400;
 }
